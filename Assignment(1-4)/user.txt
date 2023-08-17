@@ -1,0 +1,1 @@
+Email: user@example.com, Message: This is a file log entry with ID 123.
