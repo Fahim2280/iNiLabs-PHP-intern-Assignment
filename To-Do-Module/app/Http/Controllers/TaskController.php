@@ -37,7 +37,6 @@ class TaskController extends Controller
     {
         $data = $request->validate([
             'title' => 'required|max:255',
-            'completed' => 'boolean',
         ]);
 
         $task->update($data);
